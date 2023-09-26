@@ -84,6 +84,12 @@ app.get("/payment", (req, res) => {
   })
 })
 
+app.get("/check", (req,res) => {
+  res.json({
+    status: true
+  })
+})
+
 app.get("/order", (req, res) => {
   res.json({
     name: "Ciremai",
