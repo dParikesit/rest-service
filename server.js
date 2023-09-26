@@ -77,6 +77,13 @@ app.get("/total", (req, res) => {
   });
 });
 
+app.get("/payment", (req, res) => {
+  res.json({
+    account: "123456789",
+    amount: "Rp 210.000"
+  })
+})
+
 app.get("/order", (req, res) => {
   res.json({
     name: "Ciremai",
@@ -87,7 +94,7 @@ app.get("/order", (req, res) => {
     arrival: "14:45",
     addons: [],
     price: "Rp 210.000",
-    payment: ["BNI", "BCA", "QRIS"]
+    payment: "BNI"
   });
 });
 
