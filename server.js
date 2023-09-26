@@ -62,7 +62,7 @@ app.get("/addons", (req, res) => {
     },
     {
       name: "Refund guarantee",
-      price: "Rp 11.400",
+      price: "Rp 12.400",
     },
     {
       name: "Home protection",
