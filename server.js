@@ -87,6 +87,7 @@ app.get("/order", (req, res) => {
     arrival: "14:45",
     addons: [],
     price: "Rp 210.000",
+    payment: ["BNI", "BCA", "QRIS"]
   });
 });
 
